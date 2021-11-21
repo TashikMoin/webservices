@@ -46,6 +46,8 @@ HTTP is called as a stateless protocol because each request is executed independ
 
 Webservice
 
+A Web service is a software system designed to support interoperable machine-to-machine "interaction" over a network. It has an interface described in a machine-processable format (specifically WSDL). Other systems interact with the Web service in a manner prescribed by its description using SOAP-messages, typically conveyed using HTTP with an XML serialization in conjunction with other Web-related standards.
+
 Web services are a standardized way for developing interoperable applications i.e enabling an application to invoke a method of another application. These applications can be on the same computer or different computers. 
 
 Web services use open standards and protocols like HTTP, XML and SOAP. Since these are open and well known protocols, applications built on any platform can interoperate with web services. 
@@ -102,3 +104,91 @@ SOAP is a messaging protocol for exchanging information between two computers ba
 The SOAP <Envelope> is the root element in every SOAP message. It contains two child elements, an optional <Header>, and a mandatory <Body>. The SOAP <Header> is an optional subelement of the SOAP envelope. It is used to pass application-related information that is to be processed by SOAP nodes along the message path.
 
 
+
+
+
+
+Types of Webservices
+
+Web services should be implemented in various ways. The two types of widely used web services are SOAP and RESTful web services.
+
+SOAP – SOAP is a protocol which was designed before REST came into the picture. The main idea behind creating SOAP was to ensure that, 
+	"programs built on different platforms and programming languages could securely exchange data".
+
+REST – This was designed specifically for working with components such as media components, files, or even objects on a particular hardware device. Any web service which is defined on the principles of REST can be called a RESTful web service. REST uses the normal HTTP verbs of GET, POST, PUT and DELETE for working with the required components.
+
+
+
+
+
+
+
+
+
+Differences between SOAP and RESTAPI
+
+SOAP operations are not limited to CRUD
+REST operations are limited to CRUD
+
+SOAP only works with XML as data format
+REST supports XML, JSON, plain text and more
+
+SOAP can work with any other TCP-based communication protocol than HTTP (e.g. SMTP)
+REST only supports HTTP
+
+
+
+
+
+
+
+
+
+Differences between Web services and API
+
+- A web service can communicate with any type of application (console, web etc), however webapi can only communicate with the web applications.
+
+- Web services require a network. While APIs can be on- or offline, web services must use a "network". Suppose if the frontend application is running in a different machine and it is request the backend to provide it some services, if there is no network between these machines, they cannot communicate, This is the case of webservices. Webservices provides functionality to provide services/data between the same machine (API case) as well as the different machines. hence, All Web services are APIs but all APIs are not web services.
+
+- API is an interface that allows you to build on the data and functionality of another application, while a web service is a network-based resource that fulfills a specific task.
+
+- Web service is used for REST, SOAP and XML-RPC for communication while API is used for any style of communication.
+
+- Web service supports only HTTP protocol whereas API supports HTTP/HTTPS protocol. 
+
+- Web service supports XML/SOAP message protocols while API supports XML and JSON. 
+
+- All Web services are APIs but all APIs are not web services.
+
+
+
+
+
+
+
+Distributed Object Architecture
+
+
+- There is no distinction between client and servers
+
+- Objects co-exist across network and interact as if they were on a single machine
+
+- Objects provides services to other objects
+
+- Objects communicate through a middleware
+  e.g. CORBA
+
+
+
+
+
+
+Thin and fat clients
+
+Thin-client model
+all of the application processing and data management is carried out on the server
+client is simply responsible for running the presentation software
+
+Fat-client model
+the server is only responsible for data management.
+software on the client implements the application logic and the interactions with the system user

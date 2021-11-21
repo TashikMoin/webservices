@@ -1,0 +1,21 @@
+Proxy architecture contains proxy classes that does not allow direct access to the concrete classes. We only access the functionality of the concrete classes through objects/instances of proxy classes.
+
+
+Understand proxy classes in the real world using an example-
+
+Bob and his 10,000 friends go to watch a soccer match.
+Due to security reasons, it is mandatory for the guards at the entry gates to check tickets of all the people and then let them enter.
+There are also pizza and beer stalls inside the stadium but you can only buy them if you have a valid ticket.
+Now since we know that the guards did there duty right and no one without a valid ticket could enter the stadium, the pizza and beer vendors don't have to check tickets of every person themselves.
+Now let's see-
+
+The guards are acting as a proxy layer between the stadium stalls and the rest of the world.
+If the guards were not there, the pizza and beer vendors would all need to write the ticket checking code or at least make a call to that piece of code themselves. This might cause problems in the future because what if a new stall opens in the stadium and they forget to call the piece of code which checks tickets of the people.
+Advantages-
+
+Proxies allow you to do something with the object, using the object that you are using while allowing you to write a cleaner, SOLID code with ease.
+Had this been a real-world scenario, neither would have I told the guards about the stalls in the stadium nor would have I told the vendors about the whole ticketing system of the stadium. These 2 operations could grow independently on their own.
+These 2 articles give a good intro about proxies-
+
+https://docs.spring.io/spring/docs/3.0.0.M3/reference/html/ch08s06.html
+https://spring.io/blog/2012/05/23/transactions-caching-and-aop-understanding-proxy-usage-in-spring
