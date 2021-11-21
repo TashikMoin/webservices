@@ -1,0 +1,7 @@
+C:\Users\TashikMoin\Desktop\ApplicationToAccessWebServiceMethods\bin\Debug\ApplicationToAccessWebServiceMethods.exe.config
+C:\Users\TashikMoin\Desktop\ApplicationToAccessWebServiceMethods\bin\Debug\ApplicationToAccessWebServiceMethods.exe
+C:\Users\TashikMoin\Desktop\ApplicationToAccessWebServiceMethods\bin\Debug\ApplicationToAccessWebServiceMethods.pdb
+C:\Users\TashikMoin\Desktop\ApplicationToAccessWebServiceMethods\obj\Debug\ApplicationToAccessWebServiceMethods.csproj.AssemblyReference.cache
+C:\Users\TashikMoin\Desktop\ApplicationToAccessWebServiceMethods\obj\Debug\ApplicationToAccessWebServiceMethods.csproj.CoreCompileInputs.cache
+C:\Users\TashikMoin\Desktop\ApplicationToAccessWebServiceMethods\obj\Debug\ApplicationToAccessWebServiceMethods.exe
+C:\Users\TashikMoin\Desktop\ApplicationToAccessWebServiceMethods\obj\Debug\ApplicationToAccessWebServiceMethods.pdb
