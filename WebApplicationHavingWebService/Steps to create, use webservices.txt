@@ -12,7 +12,7 @@ A REST request from client to server usually contains the following:
 
 
 
-In order for a Web API to be a RESTful API, it must conform to some rules:
+For a Web API to be a RESTful API, it must conform to some rules:
 
 - Client-Server model.
 
